@@ -12,5 +12,4 @@ document.querySelectorAll('form input').forEach((input) => {
   label.setAttribute('for', input.id);
 
   input.parentElement.append(label);
-  
 });
