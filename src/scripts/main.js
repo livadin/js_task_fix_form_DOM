@@ -6,6 +6,7 @@ document.querySelectorAll('form input').forEach((input) => {
   input.placeholder = labelText;
 
   const label = document.createElement('label');
+
   label.textContent = labelText;
   label.classList.add('field-label');
   label.setAttribute('for', input.id);
